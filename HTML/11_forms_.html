@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms |WEB DEVELOPMENT</title>
+</head>
+
+<body>
+    <form action="" method="post">
+
+        <div>
+            <h2> for Text Boxes </h2>
+            <hr>
+            <h3> for Text just </h3>
+            <label for="name">Name: </label>
+            <input type="text" name="username" id="name" placeholder="Enter your name" >
+
+            <hr>
+            <h3> for Email</h3>
+            <label for="email">Email: </label>
+            <input type="email" name="useremail" id="email" placeholder="Enter your email" required>
+
+            <hr>
+            <h3> for Password</h3>
+            <label for="password">Password: </label>
+            <input type="password" name="userpassword" id="password" placeholder="Enter your password">
+
+            <hr>
+            <h3>for Text area</h3>
+            <label for="message">Message: </label>
+            <br>
+            <textarea name="usermessage" id="message" placeholder="Enter your message" rows="4" cols="50"></textarea>
+
+        </div>
+
+        <div>
+            <hr>
+            <h2> for radio Button </h2>
+            <label for="gender">Gender: </label>
+            <input type="radio" name="usergender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="usergender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <hr>
+        <h2> for Check Box Button </h2>
+        <label for="hobbies">Hobbies: </label>
+        <input type="checkbox" name="userhobbies" id="hobby1" value="hobby1">
+        <label for="hobby1">Designing </label>
+
+        <input type="checkbox" name="userhobbies" id="hobby1" value="hobby1">
+        <label for="hobby1">Reading </label>
+
+        <div>
+            <hr>
+            <h2> for Drop Down List </h2>
+            <label>Country:</label>
+            <select name="country">
+                <option value="pk">Pakistan</option>
+                <option value="us">USA</option>
+            </select>
+        </div>
+
+        <div>
+            <hr>
+            <h2> for Submission </h2>
+            <label>Submit:</label>
+                <input type="submit" name="submit">
+                <input type="reset" name="reset">
+        </div>
+
+    </form>
+</body>
+
+</html>
