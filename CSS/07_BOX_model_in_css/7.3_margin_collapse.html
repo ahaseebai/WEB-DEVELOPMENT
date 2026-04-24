@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX model in CSS | WEB DEVELOPMENT</title>
+    <style>
+        .box {
+            background-color: rgb(36, 1, 1);
+        }
+
+        .box1 {
+            color: yellow;
+            padding: 10px;
+            margin: 25px;
+            border: 2px solid blue;
+            height: 200px;
+            box-sizing: border-box;
+
+        }
+
+        .box2 {
+            color: rgb(208, 172, 183);
+            padding: 10px;
+            margin: 25px;
+            border: 2px solid blue;
+            height: 200px;
+            box-sizing: border-box;
+        }
+        .one{
+            border: 2px solid rgb(22, 22, 65);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box1">Margin collapse in CSS is a behavior where vertical margins (top and bottom) of elements
+        combine into a single margin instead of adding together.
+
+        <p>Example:
+            Element 1 → margin-bottom: 20px
+            Element 2 → margin-top: 30px</p>
+
+        <p>Final space = 30px (not 50px)</p>
+    </div>
+    <div class="box box2">Abdul Haseeb Memon</div>
+    <br>
+    <img class="one"src="margin_collapse.png" alt="image is loading">
+    <img src="box_model.png" alt="image is loading">
+
+
+</body>
+
+</html>
